@@ -1,0 +1,542 @@
+.body,html {
+
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container-web {
+
+    background: url('Barberia-Baxter-Finley.California-EE.UU_.themonopolitan.png') no-repeat center center fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    width: 1349px;
+    height: 659px;
+    position: relative;
+    overflow: hidden;
+    padding: 0px;
+    margin-top: -10px;
+    margin-left: -8px;
+    margin-right: 10px;
+    opacity: 0.9;
+
+}
+
+.container-web:before {
+
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    opacity: 0.6;
+}
+
+.imagen-barberia {
+
+    top: 410px;
+    left: 570px;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    bottom: -555px;
+    position: absolute;
+    background: url('barberia1.png') no-repeat;
+    cursor: pointer;
+    animation: movimientoLogo;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+
+
+}
+
+@keyframes movimientoLogo {
+
+0% {
+
+
+   transform: rotate(0deg); 
+}
+
+100% {
+
+
+    transform: rotate(360deg);
+
+}
+}
+
+
+
+.nombre {
+
+    left: 383px;
+    font-size: 30px;
+    font-style: italic;
+    top: 75px;
+    right: -520px;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 1349px;
+    position: absolute;
+    margin-left: 20px;
+    
+}
+
+
+.titulo-color {
+
+    color: gold;
+    animation-name: titulo-brillo;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes titulo-brillo {
+
+0% {
+
+    color: gold;
+}
+
+25% {
+
+    color: silver;
+}
+
+50% {
+    color: #ffd700;
+}
+
+75% {
+    color: rgb(191, 191, 191);
+}
+
+100% {
+    color: gold;
+}
+}
+
+
+.opciones {
+
+    font-size: 23px;
+    color: white;
+    font-family: verdana;
+    left: 920px;
+    text-align: right;
+    display: flex;
+    justify-content: right;
+    position: absolute;
+    cursor: pointer;
+    margin-left: 55px;
+    margin-top: 13px;
+
+}
+
+.logo {
+
+    top: 20px;
+    left: 20px;
+    width: 50px;
+    height: 147px;
+    background-size: cover;
+    bottom: -555px;
+    position: absolute;
+    background: url('barberpole3.png');
+    cursor: pointer;
+    
+}
+
+.logo:before {
+
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    opacity: 0.4;
+    
+}
+
+.carrito {
+
+    background: url('carrito.png');
+    position: absolute;
+    top: 520px;
+    left: 1235px;
+    width: 100px;
+    height: 100px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.texto {
+
+    background-size: contain;
+    border-radius: 8px;
+    border: 3px solid yellow;
+    font-family: sans-serif;
+    margin-top: 240px;
+    font-size: 19px;
+    color:white;
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    margin-left: 268px;
+    position: absolute;
+    visibility: hidden;
+
+}
+
+.container-sillones {
+
+    background: url('fondo2.jpg');
+    position: relative;
+    width: 1349px;
+    height: 1386px;
+    padding: 0px;
+    margin-left: -8px;
+    margin-right: -8px;
+    display: flex;
+
+}
+
+.container-sillones:before {
+
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    opacity: 0.6;
+}
+
+.linkedin {
+
+    background: url('linkedin.png');
+    margin-left: 1060px;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.instagram {
+
+    margin-top: 2px;
+    background: url('instagram.png');
+    margin-left: 1160px;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+
+}
+
+.whatsapp {
+
+    background: url('whatsapp.png');
+    margin-left: 1260px;
+    position: absolute;
+    width: 74px;
+    height: 61px;
+    cursor: pointer;
+
+
+}
+
+.Titulo {
+
+    background: radial-gradient(black, transparent);
+    width: 100%;
+    height: 80px;
+    font-size: 25px;
+    position: absolute;
+    text-align: center;
+    font-style: italic;
+    color: lightblue;
+    justify-content: center;
+    display: flex;
+}
+
+.titulocolores {
+
+    color:red;
+    animation: cambiocolor;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes cambiocolor {
+
+0% {
+    color: gold;
+}
+
+20% {
+    color: yellow;
+}
+
+40% {
+    color: silver;
+}
+
+60% {
+    color: #808080;
+}
+
+80% {
+    color: hwb(39, 0%, 0%, 1);
+}
+
+100% {
+    color: gold;
+}
+
+}
+
+.sillon1 {
+
+    margin-top: 35px;
+    margin-left: 15px;
+    width: 236px;
+    height: 236px;
+    position: absolute;
+    background: url('sillon1.png') no-repeat;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.descripcionSillon {
+
+    position: absolute;
+    color: white;
+    font-size: 21px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    margin-left: 270px;
+    border: 3px solid yellow;
+    border-radius: 8px;
+    visibility: hidden;
+    margin-right: 15px;
+    font-family: Garamond;
+
+}
+
+.descripcionSillon2 {
+
+    position: absolute;
+    color: white;
+    font-size: 21px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 380px;
+    margin-left: 270px;
+    border: 3px solid yellow;
+    border-radius: 8px;
+    visibility: hidden;
+    margin-right: 15px;
+    font-family: Garamond;
+
+}
+
+.descripcionSillon3 {
+
+    position: absolute;
+    color: white;
+    font-size: 21px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 670px;
+    margin-left: 270px;
+    border: 3px solid yellow;
+    border-radius: 8px;
+    visibility: hidden;
+    margin-right: 15px;
+    font-family: Garamond;
+
+}
+
+.descripcionSillon4 {
+
+    position: absolute;
+    color: white;
+    font-size: 21px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 950px;
+    margin-left: 270px;
+    border: 3px solid yellow;
+    border-radius: 8px;
+    visibility: hidden;
+    margin-right: 15px;
+    font-family: Garamond;
+
+}
+
+.descripcionSillon5 {
+
+    position: absolute;
+    color: white;
+    font-size: 21px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 1220px;
+    margin-left: 270px;
+    border: 3px solid yellow;
+    border-radius: 8px;
+    visibility: hidden;
+    margin-right: 15px;
+    font-family: Garamond;
+
+}
+
+.buttons {
+
+    display: flex;
+    border-radius: 8px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    margin-left: 205px;
+    margin-top: 50px;
+    position: absolute;
+
+}
+
+.total {
+
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 8px;
+    border: 8px solid white;
+    color: black;
+
+}
+
+.button-sumar {
+
+    background: green;
+    color: white;
+    width: 30px;
+    border-radius: 8px;
+
+}
+
+.button-restar {
+
+    background: red;
+    color:white;
+    width: 30px;
+    border-radius: 8px;
+}
+
+
+.sillon2 {
+
+    margin-top: 320px;
+    width: 236px;
+    height: 236px;
+    position: absolute;
+    background: url('sillon2.png') no-repeat;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.sillon3 {
+
+    margin-top: 600px;
+    margin-left: 30px;
+    width: 220px;
+    height: 243px;
+    position: absolute;
+    background: url('sillon3.png') no-repeat;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+
+.sillon4 {
+
+    margin-top: 840px;
+    margin-left: -15px;
+    width: 280px;
+    height: 280px;
+    position: absolute;
+    background: url('sillon4.png') no-repeat;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.sillon5 {
+
+    margin-top: 1120px;
+    margin-left: 30px;
+    width: 196px;
+    height: 270px;
+    position: absolute;
+    background: url('sillon5.png') no-repeat;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+.pie {
+
+    margin-right: -8px;
+    margin-left: -9px;
+    position: absolute;
+    background: linear-gradient(0deg, black, transparent);
+    width: 1350px;
+    height: 80px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-style: sans-serif;
+
+}
+
+.derechos {
+
+    position: relative;
+    background: black;
+    color: white;
+    justify-content: left;
+    display: flex;
+    font-style: sans-serif;
+
+}
+
+.formulario {
+
+    background: linear-gradient(0deg, white, red, black);
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    display: flex;
+    margin-left: -9px;
+    margin-right: -8px;
+    position: relative;
+    height: 350px;
+}
+
